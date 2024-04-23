@@ -1,0 +1,39 @@
+/* File index.css for Carousel */ 
+
+.card {
+    background-color: aquamarine;
+    width: 35%; 
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    flex-direction: row;
+    max-height: 230px;
+}
+
+
+.images {
+    width: 60%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.card-content p {
+    padding: 5%;
+}
+
+.chevron-buttons {
+    font-size: large;
+
+}

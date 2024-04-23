@@ -1,0 +1,58 @@
+
+
+.background {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .background-image {
+    background-image: url('./../../assets/images/hero-bg.png');
+  }
+  
+  .tecnologia-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tecnologia {
+    font-family: 'Montserrat';
+ 
+    margin-right: 2%;
+   
+    font-size: 300%;
+    color: #ffffff;
+
+  }
+
+  .tecnologia-little {
+    font-size: 100%;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    color: #ffffff;
+
+  }
+
+  .notebook {
+    width: 40%;
+    margin-right: 2%;
+  }
+
+  .tecnologia-label-container {
+    padding: 10%;
+  }
+
+  @media screen and (max-width: 768px) { 
+
+    .tecnologia {
+        font-size: 150%;
+    }
+
+  }
