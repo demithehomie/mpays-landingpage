@@ -1,9 +1,12 @@
 
+import { useNavigate } from 'react-router-dom'
 import logo from  './../../assets/images/Logo.png'
 
 import './index.css'
 
 export default function Header() {
+
+    const navigate = useNavigate()
   return (
    <>
     <div className="header">
@@ -20,7 +23,7 @@ export default function Header() {
           <li><a href="#">Depoimentos</a></li>
           <li><a href="#">Cadastro</a></li>
           <li><a href="#">Contato</a></li>
-          <li><button className="entrar-btn">Entrar</button></li>
+          <li><button className="entrar-btn" onClick={() => navigate('/private-area')}>Entrar</button></li>
         </ul>
       </nav>
 

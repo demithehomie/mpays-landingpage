@@ -18,7 +18,7 @@ const ReviewCard: React.FC<CardProps> = ({ image, smallImage, text, name, saying
 
 
   return (
-    <div className="card">
+    <div className="review-card">
       <div className="circle-image">
         <img src={image} alt="Main" />
       </div>

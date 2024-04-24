@@ -2,6 +2,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import LandingPage from './screens/landing-page'
+import PrivateArea from './screens/private-area'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
 
           <Route path="/" element={<LandingPage/>}/>
+          <Route path="/private-area" element={<PrivateArea/>}/>
         
         </Routes>
       

@@ -1,1 +1,36 @@
-/* File index.css for SimulatorBox */ 
+ /* File index.css for SimulatorBox */ 
+.simulatorbox {
+    background-color: grey;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simulatorbox-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.simulatorbox-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.simulatorbox-container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+   
+    padding: 1%
+    
+}
+
+.simulatorbox-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 1%
+    
+}

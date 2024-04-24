@@ -1,39 +1,91 @@
 /* File index.css for Carousel */ 
 
 .card {
-    background-color: aquamarine;
-    width: 35%; 
+    background-color: rgb(180, 180, 180);
+    max-width: 650px; /* Defina a largura máxima do card */
+    width: 100%; /* Ocupa a largura disponível */
     display: flex;
     margin: auto;
     border-radius: 15px;
     flex-direction: row;
-    max-height: 230px;
+    max-height: 300px;
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px;
+  
 }
 
 
 .images {
-    width: 60%;
+    flex-shrink: 0; /* Evita que a imagem seja reduzida para caber no container */
+    width: auto; /* Largura automática para ajustar as imagens individualmente */
+    transform: scale(0.68);
+
+    margin-bottom: 30px;
+    margin-right: -87px; /* Espaço à direita da imagem */
+    max-height: calc(100% - 20px); /* Definindo a altura máxima da imagem para caber dentro do card */
+    border-radius: 0 15px 15px 0; /* Adiciona borda arredondada apenas no lado esquerdo */
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 
 
 .card-content {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
     flex-direction: row;
 
+}
+
+.card-content-text {
+    padding: 6%;
+    padding: 0 20px; /* Espaçamento interno */
+    flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
 }
 
 .card-content p {
     padding: 5%;
 }
 
-.chevron-buttons {
+.chevron-buttons-left {
     font-size: large;
+   
+
+}
+
+
+.chevron-buttons-right {
+    font-size: large;
+
+}
+
+.cards-extra-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+   
+    font-weight: 500;
+    line-height: 34.13px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    line-height: 15.9px;
+}
+
+.cta {
+    font-family: 'Montserrat', sans-serif;
 
 }
