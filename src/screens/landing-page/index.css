@@ -56,3 +56,31 @@
     }
 
   }
+
+  .review-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reviews-title {
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 45px;
+  }
+
+  .reviews-subtitle {
+    padding-bottom: 25px;
+    font-size: 20px;
+  }

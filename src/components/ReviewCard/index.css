@@ -1,13 +1,14 @@
-.review-card {
+.review-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 10px;
     width: 100%;
     max-width: 300px; /* Tamanho máximo do card */
+    font-family: 'Montserrat', sans-serif;
   }
   
   .circle-image {

@@ -1,1 +1,50 @@
 /* File index.css for Footer */ 
+/* Mask */
+.copyright {
+
+    padding-top: 1%;
+    padding-bottom: 4%;
+
+    padding-left: 5%;
+
+    padding-right: 5%;
+
+    text-align: center;
+
+}
+
+.mpays-footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    
+    
+}
+
+.cards-flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas com largura igual */
+    gap: 10px; /* Espaçamento entre as imagens */
+    max-width: 9%;
+    min-width: 160px;
+}
+
+.cards-flags img {
+    max-width: 100%; /* Assegura que as imagens não ultrapassem o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.footer-modules{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.we-accept {
+    gap: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

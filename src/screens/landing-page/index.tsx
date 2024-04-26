@@ -12,6 +12,11 @@ import ReviewCard from '../../components/ReviewCard';
 import FormBox from '../../components/FormBox';
 import Footer from '../../components/Footer';
 
+import card1image from '../../assets/images/depoimentos/card1.png'
+import card2image from '../../assets/images/depoimentos/card2.png'
+import card31image from '../../assets/images/depoimentos/card3.png'
+
+import quote from '../../assets/images/depoimentos/quote.png'
 
 
 export default function LandingPage() {
@@ -100,15 +105,37 @@ export default function LandingPage() {
 
 
 
-<div>
-    <label >Depoimentos</label>
-    <label >O suporte ao cliente é nossa primeira prioridade.</label>
+<div className='reviews'>
+    <label className='reviews-title'>Depoimentos</label>
+    <label className='reviews-subtitle'>O suporte ao cliente é nossa primeira prioridade.</label>
 </div>
 
-<div>
-    <ReviewCard image={''} text={''} smallImage={''} name={''} saying={''}/>
-    <ReviewCard image={''} text={''} smallImage={''} name={''} saying={''}/>
-    <ReviewCard image={''} text={''} smallImage={''} name={''} saying={''}/>
+<div className='review-cards-container'>
+    
+    <ReviewCard 
+        image={card1image} 
+        text={'A mpays foi a plataforma onde eu tive a maior taxa de aprovação de crédito do mercado.'} 
+        smallImage={quote} 
+        name={'Carlos Eduardo Amaral'} 
+        saying={'CEO da Amaral Mídia'}
+    />
+
+    <ReviewCard
+         image={card2image} 
+         text={'O principal diferencial é a taxa de cartão recusado ser muito baixa, aumentando nossa taxa de conversão e o faturamento.”'} 
+         smallImage={quote} 
+         name={'Renato Laureano'} 
+         saying={'Fundador da Anellimn Store'}
+    />
+
+    <ReviewCard 
+        image={card31image} 
+        text={'Depois de muito pesquisar, decidi migrar para a mpays e já nas primeiras semanas nossa taxa de conversão subiu para 94%'} 
+        smallImage={quote} 
+        name={'Armando Girão'} 
+        saying={'Fundador da Orion E-commerce'}
+    />
+
 </div>
 
 </div>
