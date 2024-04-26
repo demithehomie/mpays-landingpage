@@ -1,1 +1,163 @@
 /* File index.css for ModalAlert */ 
+.card {
+    border-radius: 24px;
+    background-color: #fbfbfb;
+    display: flex;
+    max-width: 720px;
+    padding: 20px 0 0;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    align-self: end;
+    z-index: 10;
+    display: flex;
+    margin-right: 20px;
+    width: 411px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .card-header {
+      margin-right: 10px;
+    }
+  }
+  
+  .logo {
+    width: 32px;
+    align-self: end;
+  }
+  
+  .logo-text {
+    width: 143px;
+    fill: var(--Verde---Sucesso---Mpays, #28c76f);
+    margin-top: 17px;
+    max-width: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    position: relative;
+    min-height: 280px;
+    width: 100%;
+    padding: 48px 20px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .card-body {
+      max-width: 100%;
+    }
+  }
+  
+  .background-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .description {
+    position: relative;
+    color: var(--Cinza-Escuro---Mpays, #5e5873);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    align-self: end;
+    font: 500 28px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .description {
+      max-width: 100%;
+    }
+  }
+  
+  .card-footer {
+    position: relative;
+    z-index: 10;
+    margin-top: -40px;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .card-footer {
+      max-width: 100%;
+    }
+  }
+  
+  .footer-content {
+    gap: 20px;
+  
+  }
+  
+  @media (max-width: 991px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 31%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .image-column {
+      width: 100%;
+    }
+  }
+  
+  .footer-image {
+    width: 100%;
+    mix-blend-mode: lighten;
+    flex-grow: 1;
+  }
+  
+  .button-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+ 
+
+  }
+  
+  @media (max-width: 991px) {
+    .button-column {
+      width: 100%;
+    }
+  }
+  
+  .access-button {
+    border-radius: 5px;
+    background-color: var(--Cor-Primria---Mpays, #7d45dc);
+    position: relative;
+    margin-top: 81px;
+    color: var(--Branco---Mpays, #fff);
+    text-align: center;
+    letter-spacing: 0.4px;
+    width: 100%;
+    justify-content: center;
+    padding: 13px 60px;
+    font: 500 14px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+   
+  }
+  
+  @media (max-width: 991px) {
+    .access-button {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 25px 0 23px;
+    }
+  }

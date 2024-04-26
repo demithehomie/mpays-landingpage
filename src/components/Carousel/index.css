@@ -44,8 +44,9 @@
 
 .card-content-text {
     padding: 6%;
-    padding: 0 20px; /* Espaçamento interno */
+    padding:  20px; /* Espaçamento interno */
     flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+
 }
 
 .card-content p {
@@ -83,6 +84,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: small;
     line-height: 15.9px;
+
 }
 
 .cta {
